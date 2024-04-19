@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container-cabecalho {
+    background-color: #04233f;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-cabecalho-titulo {
+    font-size: 2em;
+    color: #1190ff;
+}
+
+.container-navegacao {
+    background-color: #06345d;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-navegacao-a {
+    color: white;
+    margin: 0px 50px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.container-navegacao-a:hover {
+    color: #1190ff;
+}
+
+.container-section-1 {
+    background-color: #05192a;
+    overflow: auto;
+}
+.container-section-article {
+    padding: 50px;
+    float: center;
+    background-color: #061f35 ;
+    text-align: center;
+    width: 50%;
+    margin: 60px auto;
+    border-radius: 10px;
+
+}
+
+.container-section-article .icone{
+    margin-bottom: 10px;
+}
+.container-section-article .texto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: #81c4ff;
+    margin-top: 20px;
+}
+.container-section-article .texto-realce{
+    color: white;
+}
+
+/* --------- Contatos ------------ */
+
+.section-contatos{
+    background-color: #082946;
+    padding: 40px;
+    text-align: center;
+}
+
+.section-contatos-div{
+    padding: 60px;
+    text-align: center;
+}
+.section-contatos-div-a{
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding : 20px 60px;
+    color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #0083b9;
+}
+.section-contatos-div-a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+/* --------- Serviços -------------- */
+.container-servicos{
+    background-color:#05192a;
+    font-size: 1.1em;
+    padding: 80px;
+    overflow: auto;
+}
+
+.container-servicos-h1{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container-servicos-h3{
+    padding: 20px 0;
+    color: #0083b9;
+}
+.container-servicos-article{
+    width: 40%;
+    margin: auto;
+    float: center;
+    
+}
+.container-servicos-li{
+    margin: 10px 0px 20px 40px;
+    
+}
+
+
+
+/* --------- Pagina Contatos -------------- */
+
+.container-contatos{
+    background-color:#05192a;
+    padding : 80px;
+    overflow: center;
+    text-align: center;
+}
+
+.container-contatos-h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.container-contatos-div{
+    padding: 20px 30px;
+    font-weight: 100;
+    border: 1px solid #105088;
+    border-radius: 10px;
+    max-width: 40%;
+    font-size: 1.5em;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #08253f;
+}
+
+.container-article-numero{
+    display: block;
+    overflow: auto;
+    float: center;
+}
+.contatos{
+    margin: 20px ;
+    display: block;
+    text-align: center;
+    color: #00a2ff;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+
+
+/* --------- Rodapé ------------- */
+.rodape{
+    padding: 80px;
+    background-color: #02111f;
+    text-align: center;
+    font-size: 1em;
+    color: gray ;
+}
