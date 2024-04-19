@@ -7,7 +7,13 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* -----------Padrão------------- */
+.text-center{
+    text-align: center;
+}
+.margin-top{
+    margin-top: 40px;
+}
 
 .container-cabecalho {
     background-color: #04233f;
@@ -133,8 +139,6 @@ body {
 .container-contatos{
     background-color:#05192a;
     padding : 80px;
-    overflow: center;
-    text-align: center;
 }
 
 .container-contatos-h1{
@@ -152,28 +156,19 @@ body {
     margin-bottom: 20px;
     background-color: #08253f;
 }
-
-.container-article-numero{
+.container-contatos .contatos{
     display: block;
-    overflow: auto;
-    float: center;
-}
-.contatos{
-    margin: 20px ;
-    display: block;
-    text-align: center;
-    color: #00a2ff;
-    text-decoration: none;
     font-size: 2em;
+    color: #00a2ff;
+    margin-bottom: 40p;
+    text-decoration: none;
 }
-
 
 
 /* --------- Rodapé ------------- */
 .rodape{
     padding: 80px;
     background-color: #02111f;
-    text-align: center;
     font-size: 1em;
     color: gray ;
 }
